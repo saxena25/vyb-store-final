@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 
 function LoginHome() {
     return ( 
@@ -6,13 +7,13 @@ function LoginHome() {
             <Navbar />
             <div className="mt-44 w-[70rem] m-auto flex flex-row justify-between">
                 <div>
-                    <img src="https://vyb-store-clone.vercel.app/photo.png" alt="Dude coding on laptop" />
+                    <Image src="https://vyb-store-clone.vercel.app/photo.png" alt="Dude coding on laptop" />
                 </div>
                 <div className="w-[35rem] px-5">
                     <div className="flex justify-center flex-col items-center">
                         <h1 className="text-4xl font-extrabold">Login</h1>
                         <button className="flex flex-row w-[20rem] border-2 items-center justify-center py-2 mt-4 rounded-xl border-black mb-5">
-                            <img width="25" height="25" src="https://img.icons8.com/fluency/50/google-logo.png" alt="google-logo"/>
+                            <Image width="25" height="25" src="https://img.icons8.com/fluency/50/google-logo.png" alt="google-logo"/>
                             <p>Log in with google</p>
                         </button>
                         <p>---------OR---------</p>

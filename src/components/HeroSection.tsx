@@ -41,7 +41,7 @@ function HeroSection() {
             <div className='absolute bottom-0 left-1/4 z-10 flex flex-row items-center justify-between w-[70rem] bg-white border rounded-3xl translate-y-[50px] h-[12rem] shadow-2xl'>
                 {names.map((item)=>(
                     <div key={item.title1} className='flex flex-col items-center mb-4 ml-10 mr-10 mt-5'>
-                        <img src={item.src} alt={item.alt} />
+                        <Image src={item.src} alt={item.alt} />
                         {/* <Image src={item.src} alt={item.alt} width={item.width} height={item.height} /> */}
                         <h3 className="mt-2 text-lg font-semibold text-black leading-none ">{item.title1}</h3>
                         <h3 className="text-lg font-semibold text-black mb-2">{item.title2}</h3>

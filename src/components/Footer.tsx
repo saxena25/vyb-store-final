@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react';
 import add from "@/assets/add.png"
+import Image from 'next/image';
 
 const FAQItem = ({question, answer}:any) =>{
     const [isOpen, setIsOpen] = useState(false);
@@ -9,7 +10,7 @@ const FAQItem = ({question, answer}:any) =>{
         <div style={{color: "rgba(0,60,59,1)", backgroundColor: "#E5F0F1"}} className='max-w-3xl m-auto my-4 py-3 rounded-xl'>
             <div onClick={()=>setIsOpen(!isOpen)} className='cursor-pointer flex flex-row justify-between'>
                 <h3 className='font-semibold ml-5'>{question}</h3>
-                <img width="50" height="50" src="https://img.icons8.com/ios/50/add--v1.png" alt="add--v1" className='w-6 mr-5'/>
+                <Image width="50" height="50" src="https://img.icons8.com/ios/50/add--v1.png" alt="add--v1" className='w-6 mr-5'/>
             </div>
             {isOpen && <div className=''>
                     <div className='h-[2px] bg-black mx-3 mt-2'></div>

@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 
 function Profile() {
     return ( 
@@ -6,7 +7,7 @@ function Profile() {
             <Navbar />
             <div className="w-[70rem] mt-36 flex flex-row m-auto justify-between">
                 <div className="border border-black flex flex-col items-center mr-10 px-14 py-5 h-[40rem] justify-evenly rounded-2xl">
-                    <img src="https://vyb-store-clone.vercel.app/profile-pic.png" alt="Profile Photo" className="mb-0 w-[16rem]"/>
+                    <Image src="https://vyb-store-clone.vercel.app/profile-pic.png" alt="Profile Photo" className="mb-0 w-[16rem]"/>
                     <p className="mt-0 leading-none text-xs">change Profile Picture</p>
                     <h1 className="text-4xl font-bold">Samira Hadid</h1>
                     <button style={{backgroundColor: "rgba(0,60,59,1)"}} className="text-white border px-24 py-2 rounded-xl">Profile</button>
