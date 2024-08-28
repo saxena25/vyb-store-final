@@ -1,6 +1,8 @@
 <h1>deploment link: https://vyb-store-final-5xx5.vercel.app/</h1>
-<p>First Created a website using Next.js and tailwind</p>
+<p>First Project using Next.js and tailwind</p>
 <p>design is not responsive</p>
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
