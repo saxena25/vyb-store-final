@@ -28,7 +28,7 @@ function LoginHome() {
                         </form>
                     </div>
                     <div className="flex flex-col justify-center items-center mt-8">
-                        <p>----Don't have an account?----</p>
+                        <p>----Don&#39;t have an account?----</p>
                         <button style={{backgroundColor: "rgba(0,60,59,1)"}} className="text-white w-[12rem] py-2 mt-5 rounded-xl">Sign up</button>
                     </div>
                 </div>
